@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1586456768 source:d:\github\rigidbody3d\main.cpp
+	<windows.h>
+	<gl/gl.h>
+	"ClaseOpenGL.h"
+
+1586456770 d:\github\rigidbody3d\include\claseopengl.h
+	<gl/gl.h>
+	<GL/GLU.h>
+	"Robot.h"
+	"Sistema.h"
+	"modelo3D.h"
+
+1586456772 d:\github\rigidbody3d\include\robot.h
+	"modelo3D.h"
+	<vector>
+	<cstdlib>
+
+1586456772 d:\github\rigidbody3d\include\modelo3d.h
+	"Triangle3D.h"
+	"Matrix.h"
+	<fstream>
+	<iostream>
+	<gl/gl.h>
+	<GL/GLU.h>
+	<string>
+
+1586456770 d:\github\rigidbody3d\include\triangle3d.h
+	"vector3d.h"
+
+1590889165 d:\github\rigidbody3d\include\vector3d.h
+	<math.h>
+
+1586456772 d:\github\rigidbody3d\include\matrix.h
+	"vector3d.h"
+	<iostream>
+
+1586456770 d:\github\rigidbody3d\include\sistema.h
+	"modelo3D.h"
+
+1586456772 source:d:\github\rigidbody3d\src\matrix.cpp
+	"Matrix.h"
+
+1590901744 source:d:\github\rigidbody3d\src\modelo3d.cpp
+	"modelo3D.h"
+	<gl/gl.h>
+	<stdint.h>
+
+1586456774 source:d:\github\rigidbody3d\src\triangle3d.cpp
+	"Triangle3D.h"
+
+1586456772 source:d:\github\rigidbody3d\src\vector3d.cpp
+	"vector3d.h"
+	<iostream>
+
+1590889391 source:d:\github\rigidbody3d\src\claseopengl.cpp
+	"ClaseOpenGL.h"
+
+1590889318 source:d:\github\rigidbody3d\src\robot.cpp
+	"Robot.h"
+
+1586456772 source:d:\github\rigidbody3d\src\sistema.cpp
+	"Sistema.h"
+
